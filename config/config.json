@@ -1,0 +1,8 @@
+{
+  "data_path": "data/db/elements.json",
+  "log_path": "logs/physics.log",
+  "env": {
+    "temperature": 300,
+    "pressure": 1.0
+  }
+}

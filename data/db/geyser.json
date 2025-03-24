@@ -1,0 +1,1733 @@
+{
+  "geysers": [
+    {
+      "id": "GeyserGeneric_steam",
+      "anim": "geyser_gas_steam_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME",
+        "Hash": 504382788
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC",
+        "Hash": -1068349238
+      },
+      "geyserType": {
+        "id": "steam",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -899515856
+        },
+        "element": -899515856,
+        "shape": 0,
+        "temperature": 383.15,
+        "minRatePerCycle": 1000.0,
+        "maxRatePerCycle": 2000.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_hot_steam",
+      "anim": "geyser_gas_steam_hot_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME",
+        "Hash": 1534592656
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC",
+        "Hash": 217076110
+      },
+      "geyserType": {
+        "id": "hot_steam",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -2022709954
+        },
+        "element": -899515856,
+        "shape": 0,
+        "temperature": 773.15,
+        "minRatePerCycle": 500.0,
+        "maxRatePerCycle": 1000.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_hot_water",
+      "anim": "geyser_liquid_water_hot_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME",
+        "Hash": -1005828461
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC",
+        "Hash": 2052434193
+      },
+      "geyserType": {
+        "id": "hot_water",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 713477285
+        },
+        "element": 1836671383,
+        "shape": 1,
+        "temperature": 368.15,
+        "minRatePerCycle": 2000.0,
+        "maxRatePerCycle": 4000.0,
+        "maxPressure": 500.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_slush_water",
+      "anim": "geyser_liquid_water_slush_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME",
+        "Hash": -1092770903
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC",
+        "Hash": -823742201
+      },
+      "geyserType": {
+        "id": "slush_water",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 1280790313
+        },
+        "element": 1832607973,
+        "shape": 1,
+        "temperature": 263.15,
+        "minRatePerCycle": 1000.0,
+        "maxRatePerCycle": 2000.0,
+        "maxPressure": 500.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 263.0,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_filthy_water",
+      "anim": "geyser_liquid_water_filthy_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME",
+        "Hash": -329270876
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC",
+        "Hash": -2056720602
+      },
+      "geyserType": {
+        "id": "filthy_water",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -413583980
+        },
+        "element": 1832607973,
+        "shape": 1,
+        "temperature": 303.15,
+        "minRatePerCycle": 2000.0,
+        "maxRatePerCycle": 4000.0,
+        "maxPressure": 500.0,
+        "diseaseInfo": {
+          "idx": 0,
+          "count": 20000
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_slush_salt_water",
+      "anim": "geyser_liquid_salt_water_cool_slush_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME",
+        "Hash": -1726135916
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC",
+        "Hash": -1484216950
+      },
+      "geyserType": {
+        "id": "slush_salt_water",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 1984991388
+        },
+        "element": -324547888,
+        "shape": 1,
+        "temperature": 263.15,
+        "minRatePerCycle": 1000.0,
+        "maxRatePerCycle": 2000.0,
+        "maxPressure": 500.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 263.0,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_salt_water",
+      "anim": "geyser_liquid_salt_water_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME",
+        "Hash": -1897193478
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC",
+        "Hash": -2139112612
+      },
+      "geyserType": {
+        "id": "salt_water",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 630638510
+        },
+        "element": 1911997537,
+        "shape": 1,
+        "temperature": 368.15,
+        "minRatePerCycle": 2000.0,
+        "maxRatePerCycle": 4000.0,
+        "maxPressure": 500.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_small_volcano",
+      "anim": "geyser_molten_volcano_small_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME",
+        "Hash": 1938767154
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC",
+        "Hash": -1058886312
+      },
+      "geyserType": {
+        "id": "small_volcano",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -471575302
+        },
+        "element": -1075911705,
+        "shape": 2,
+        "temperature": 2000.0,
+        "minRatePerCycle": 400.0,
+        "maxRatePerCycle": 800.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 6000.0,
+        "maxIterationLength": 12000.0,
+        "minIterationPercent": 0.005,
+        "maxIterationPercent": 0.01,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_big_volcano",
+      "anim": "geyser_molten_volcano_big_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME",
+        "Hash": 266883623
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC",
+        "Hash": 1422776621
+      },
+      "geyserType": {
+        "id": "big_volcano",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -1592417549
+        },
+        "element": -1075911705,
+        "shape": 2,
+        "temperature": 2000.0,
+        "minRatePerCycle": 800.0,
+        "maxRatePerCycle": 1600.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 6000.0,
+        "maxIterationLength": 12000.0,
+        "minIterationPercent": 0.005,
+        "maxIterationPercent": 0.01,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_liquid_co2",
+      "anim": "geyser_liquid_co2_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME",
+        "Hash": 495045119
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC",
+        "Hash": 253126249
+      },
+      "geyserType": {
+        "id": "liquid_co2",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 1482090435
+        },
+        "element": -1526513293,
+        "shape": 1,
+        "temperature": 218.0,
+        "minRatePerCycle": 100.0,
+        "maxRatePerCycle": 200.0,
+        "maxPressure": 50.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 218.0,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_hot_co2",
+      "anim": "geyser_gas_co2_hot_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME",
+        "Hash": 143002540
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC",
+        "Hash": 391828262
+      },
+      "geyserType": {
+        "id": "hot_co2",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -620712844
+        },
+        "element": 1960575215,
+        "shape": 0,
+        "temperature": 773.15,
+        "minRatePerCycle": 70.0,
+        "maxRatePerCycle": 140.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_hot_hydrogen",
+      "anim": "geyser_gas_hydrogen_hot_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME",
+        "Hash": -261883854
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC",
+        "Hash": -19964976
+      },
+      "geyserType": {
+        "id": "hot_hydrogen",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 1123505170
+        },
+        "element": -1046145888,
+        "shape": 0,
+        "temperature": 773.15,
+        "minRatePerCycle": 70.0,
+        "maxRatePerCycle": 140.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_hot_po2",
+      "anim": "geyser_gas_po2_hot_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME",
+        "Hash": -494877001
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC",
+        "Hash": -1711378671
+      },
+      "geyserType": {
+        "id": "hot_po2",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -513313279
+        },
+        "element": 721531317,
+        "shape": 0,
+        "temperature": 773.15,
+        "minRatePerCycle": 70.0,
+        "maxRatePerCycle": 140.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_slimy_po2",
+      "anim": "geyser_gas_po2_slimy_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME",
+        "Hash": -1682193326
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC",
+        "Hash": -1951222024
+      },
+      "geyserType": {
+        "id": "slimy_po2",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 2128532496
+        },
+        "element": 721531317,
+        "shape": 0,
+        "temperature": 333.15,
+        "minRatePerCycle": 70.0,
+        "maxRatePerCycle": 140.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 1,
+          "count": 5000
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_chlorine_gas",
+      "anim": "geyser_gas_chlorine_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME",
+        "Hash": 1183844370
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC",
+        "Hash": 941925396
+      },
+      "geyserType": {
+        "id": "chlorine_gas",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 1483840464
+        },
+        "element": -1324664829,
+        "shape": 0,
+        "temperature": 333.15,
+        "minRatePerCycle": 70.0,
+        "maxRatePerCycle": 140.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_methane",
+      "anim": "geyser_gas_methane_kanim",
+      "width": 2,
+      "height": 4,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME",
+        "Hash": 527195120
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC",
+        "Hash": -2094025270
+      },
+      "geyserType": {
+        "id": "methane",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -841236436
+        },
+        "element": -841236436,
+        "shape": 0,
+        "temperature": 423.15,
+        "minRatePerCycle": 70.0,
+        "maxRatePerCycle": 140.0,
+        "maxPressure": 5.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_molten_copper",
+      "anim": "geyser_molten_copper_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME",
+        "Hash": -107755261
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC",
+        "Hash": 1485179741
+      },
+      "geyserType": {
+        "id": "molten_copper",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -695301211
+        },
+        "element": 2128494380,
+        "shape": 2,
+        "temperature": 2500.0,
+        "minRatePerCycle": 200.0,
+        "maxRatePerCycle": 400.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 480.0,
+        "maxIterationLength": 1080.0,
+        "minIterationPercent": 0.0166666675,
+        "maxIterationPercent": 0.1,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_molten_iron",
+      "anim": "geyser_molten_iron_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME",
+        "Hash": -1533888770
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC",
+        "Hash": -1365875208
+      },
+      "geyserType": {
+        "id": "molten_iron",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 254095636
+        },
+        "element": 502659099,
+        "shape": 2,
+        "temperature": 2800.0,
+        "minRatePerCycle": 200.0,
+        "maxRatePerCycle": 400.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 480.0,
+        "maxIterationLength": 1080.0,
+        "minIterationPercent": 0.0166666675,
+        "maxIterationPercent": 0.1,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_molten_gold",
+      "anim": "geyser_molten_gold_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME",
+        "Hash": 274311078
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC",
+        "Hash": 1430204072
+      },
+      "geyserType": {
+        "id": "molten_gold",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -1332060084
+        },
+        "element": -1083496621,
+        "shape": 2,
+        "temperature": 2900.0,
+        "minRatePerCycle": 200.0,
+        "maxRatePerCycle": 400.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 480.0,
+        "maxIterationLength": 1080.0,
+        "minIterationPercent": 0.0166666675,
+        "maxIterationPercent": 0.1,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_molten_aluminum",
+      "anim": "geyser_molten_aluminum_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME",
+        "Hash": 679702854
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC",
+        "Hash": 1997219660
+      },
+      "geyserType": {
+        "id": "molten_aluminum",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -968505972
+        },
+        "element": -1637472877,
+        "shape": 2,
+        "temperature": 2000.0,
+        "minRatePerCycle": 200.0,
+        "maxRatePerCycle": 400.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 480.0,
+        "maxIterationLength": 1080.0,
+        "minIterationPercent": 0.0166666675,
+        "maxIterationPercent": 0.1,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": "EXPANSION1_ID"
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_molten_tungsten",
+      "anim": "geyser_molten_tungsten_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME",
+        "Hash": 2042775952
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC",
+        "Hash": -1015486698
+      },
+      "geyserType": {
+        "id": "molten_tungsten",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 159381264
+        },
+        "element": -509585641,
+        "shape": 2,
+        "temperature": 4000.0,
+        "minRatePerCycle": 200.0,
+        "maxRatePerCycle": 400.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 480.0,
+        "maxIterationLength": 1080.0,
+        "minIterationPercent": 0.0166666675,
+        "maxIterationPercent": 0.1,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": "EXPANSION1_ID"
+      },
+      "isGenericGeyser": false
+    },
+    {
+      "id": "GeyserGeneric_molten_niobium",
+      "anim": "geyser_molten_niobium_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME",
+        "Hash": -928767669
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC",
+        "Hash": -1170687019
+      },
+      "geyserType": {
+        "id": "molten_niobium",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 976669543
+        },
+        "element": 1499134368,
+        "shape": 2,
+        "temperature": 3500.0,
+        "minRatePerCycle": 800.0,
+        "maxRatePerCycle": 1600.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 6000.0,
+        "maxIterationLength": 12000.0,
+        "minIterationPercent": 0.005,
+        "maxIterationPercent": 0.01,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": "EXPANSION1_ID"
+      },
+      "isGenericGeyser": false
+    },
+    {
+      "id": "GeyserGeneric_molten_cobalt",
+      "anim": "geyser_molten_cobalt_kanim",
+      "width": 3,
+      "height": 3,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.NAME",
+        "Hash": -1528940757
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.DESC",
+        "Hash": -1797969455
+      },
+      "geyserType": {
+        "id": "molten_cobalt",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": 1137916511
+        },
+        "element": -333255194,
+        "shape": 2,
+        "temperature": 2500.0,
+        "minRatePerCycle": 200.0,
+        "maxRatePerCycle": 400.0,
+        "maxPressure": 150.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 480.0,
+        "maxIterationLength": 1080.0,
+        "minIterationPercent": 0.0166666675,
+        "maxIterationPercent": 0.1,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": "EXPANSION1_ID"
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_oil_drip",
+      "anim": "geyser_liquid_oil_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME",
+        "Hash": -2128293000
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC",
+        "Hash": -400843890
+      },
+      "geyserType": {
+        "id": "oil_drip",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -2131904254
+        },
+        "element": -1412059381,
+        "shape": 1,
+        "temperature": 600.0,
+        "minRatePerCycle": 1.0,
+        "maxRatePerCycle": 250.0,
+        "maxPressure": 50.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 600.0,
+        "maxIterationLength": 600.0,
+        "minIterationPercent": 1.0,
+        "maxIterationPercent": 1.0,
+        "minYearLength": 100.0,
+        "maxYearLength": 500.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": ""
+      },
+      "isGenericGeyser": true
+    },
+    {
+      "id": "GeyserGeneric_liquid_sulfur",
+      "anim": "geyser_liquid_sulfur_kanim",
+      "width": 4,
+      "height": 2,
+      "nameStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME",
+        "Hash": 1952823608
+      },
+      "descStringKey": {
+        "String": "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC",
+        "Hash": 440700250
+      },
+      "geyserType": {
+        "id": "liquid_sulfur",
+        "idHash": {
+          "IsValid": true,
+          "HashValue": -1765654948
+        },
+        "element": -1108652427,
+        "shape": 1,
+        "temperature": 438.349976,
+        "minRatePerCycle": 1000.0,
+        "maxRatePerCycle": 2000.0,
+        "maxPressure": 500.0,
+        "diseaseInfo": {
+          "idx": 255,
+          "count": 0
+        },
+        "minIterationLength": 60.0,
+        "maxIterationLength": 1140.0,
+        "minIterationPercent": 0.1,
+        "maxIterationPercent": 0.9,
+        "minYearLength": 15000.0,
+        "maxYearLength": 135000.0,
+        "minYearPercent": 0.4,
+        "maxYearPercent": 0.8,
+        "geyserTemperature": 372.15,
+        "DlcID": "EXPANSION1_ID"
+      },
+      "isGenericGeyser": true
+    }
+  ],
+  "CategorySettings": {
+    "DEFAULT_CATEGORY": {
+      "material": {
+        "Name": "Dirt",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.1,
+        "temperatureModifier": 10.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "WATER_CATEGORY": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "ORGANIC_CATEGORY": {
+      "material": {
+        "Name": "Salt",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "HYDROCARBON_CATEGORY": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "VOLCANO_CATEGORY": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 150.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "METALS_CATEGORY": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "CO2_CATEGORY": {
+      "material": {
+        "Name": "ToxicSand",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 5.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    }
+  },
+  "geotunerGeyserSettings": {
+    "0xCA627A30": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x876FE53E": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x7EDED410": {
+      "material": {
+        "Name": "Salt",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xE1677601": {
+      "material": {
+        "Name": "Salt",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xCDDBC02C": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x58719BD0": {
+      "material": {
+        "Name": "Salt",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xDB00AC74": {
+      "material": {
+        "Name": "ToxicSand",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 5.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x42F75412": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x2A86CCA5": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x2596C7AE": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x7650909C": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xE7593594": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x4C574F29": {
+      "material": {
+        "Name": "BleachStone",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 20.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x96C23E5C": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x5856E7C3": {
+      "material": {
+        "Name": "ToxicSand",
+        "IsValid": true
+      },
+      "quantity": 50.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 5.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x80EDB902": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 15.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xE3E454FA": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 150.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xA115A2F3": {
+      "material": {
+        "Name": "Katairite",
+        "IsValid": true
+      },
+      "quantity": 100.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 150.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xD68E8BA5": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xB09A604C": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xF253114": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0xC645C58C": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x43D33A5F": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x3A36CB67": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    },
+    "0x97FF710": {
+      "material": {
+        "Name": "Phosphorus",
+        "IsValid": true
+      },
+      "quantity": 80.0,
+      "template": {
+        "originID": null,
+        "massPerCycleModifier": 0.2,
+        "temperatureModifier": 50.0,
+        "iterationDurationModifier": 0.0,
+        "iterationPercentageModifier": 0.0,
+        "yearDurationModifier": 0.0,
+        "yearPercentageModifier": 0.0,
+        "maxPressureModifier": 0.0,
+        "modifyElement": false,
+        "newElement": 0
+      },
+      "duration": 600.0
+    }
+  },
+  "geyserIdHashDictionary": {
+    "steam": "0xCA627A30",
+    "hot_steam": "0x876FE53E",
+    "hot_water": "0x2A86CCA5",
+    "slush_water": "0x4C574F29",
+    "filthy_water": "0xE7593594",
+    "slush_salt_water": "0x7650909C",
+    "salt_water": "0x2596C7AE",
+    "small_volcano": "0xE3E454FA",
+    "big_volcano": "0xA115A2F3",
+    "liquid_co2": "0x5856E7C3",
+    "hot_co2": "0xDB00AC74",
+    "hot_hydrogen": "0x42F75412",
+    "hot_po2": "0xE1677601",
+    "slimy_po2": "0x7EDED410",
+    "chlorine_gas": "0x58719BD0",
+    "methane": "0xCDDBC02C",
+    "molten_copper": "0xD68E8BA5",
+    "molten_iron": "0xF253114",
+    "molten_gold": "0xB09A604C",
+    "molten_aluminum": "0xC645C58C",
+    "molten_tungsten": "0x97FF710",
+    "molten_niobium": "0x3A36CB67",
+    "molten_cobalt": "0x43D33A5F",
+    "oil_drip": "0x80EDB902",
+    "liquid_sulfur": "0x96C23E5C"
+  },
+  "buildVersion": "U52-617614-SC",
+  "dlcs": [
+    "DLC2_ID",
+    "EXPANSION1_ID",
+    ""
+  ],
+  "ExportFileName": "geyser",
+  "DatabaseDirName": "database"
+}

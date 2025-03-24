@@ -1,0 +1,702 @@
+{
+  "ExposureType": [
+    {
+      "germ_id": "FoodPoisoning",
+      "sickness_id": "FoodSickness",
+      "infection_effect": null,
+      "exposure_threshold": 100,
+      "infect_immediately": false,
+      "required_traits": null,
+      "excluded_traits": [
+        "IronGut"
+      ],
+      "excluded_effects": [
+        "FoodSicknessRecovery"
+      ],
+      "base_resistance": 2
+    },
+    {
+      "germ_id": "SlimeLung",
+      "sickness_id": "SlimeSickness",
+      "infection_effect": null,
+      "exposure_threshold": 100,
+      "infect_immediately": false,
+      "required_traits": null,
+      "excluded_traits": null,
+      "excluded_effects": [
+        "SlimeSicknessRecovery"
+      ],
+      "base_resistance": 4
+    },
+    {
+      "germ_id": "ZombieSpores",
+      "sickness_id": "ZombieSickness",
+      "infection_effect": null,
+      "exposure_threshold": 1,
+      "infect_immediately": false,
+      "required_traits": null,
+      "excluded_traits": null,
+      "excluded_effects": [
+        "ZombieSicknessRecovery"
+      ],
+      "base_resistance": -2
+    },
+    {
+      "germ_id": "RadiationSickness",
+      "sickness_id": null,
+      "infection_effect": null,
+      "exposure_threshold": 1,
+      "infect_immediately": false,
+      "required_traits": null,
+      "excluded_traits": null,
+      "excluded_effects": [
+        "ZombieSicknessRecovery"
+      ],
+      "base_resistance": -2
+    },
+    {
+      "germ_id": "PollenGerms",
+      "sickness_id": "Allergies",
+      "infection_effect": null,
+      "exposure_threshold": 2,
+      "infect_immediately": true,
+      "required_traits": [
+        "Allergies"
+      ],
+      "excluded_traits": null,
+      "excluded_effects": [
+        "HistamineSuppression"
+      ],
+      "base_resistance": 0
+    },
+    {
+      "germ_id": "PollenGerms",
+      "sickness_id": null,
+      "infection_effect": "SmelledFlowers",
+      "exposure_threshold": 2,
+      "infect_immediately": true,
+      "required_traits": null,
+      "excluded_traits": [
+        "Allergies"
+      ],
+      "excluded_effects": null,
+      "base_resistance": 0
+    }
+  ],
+  "sicknessComponent": {
+    "FoodSickness": {
+      "sickness": "FoodSickness",
+      "modifiers": {
+        "Modifers": [
+          {
+            "Description": "<link=\"FOODSICKNESS\">食物中毒</link>",
+            "DescriptionCB": null,
+            "AttributeId": "BladderDelta",
+            "Value": 0.333333343,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"FOODSICKNESS\">食物中毒</link>",
+            "DescriptionCB": null,
+            "AttributeId": "ToiletEfficiency",
+            "Value": -0.2,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"FOODSICKNESS\">食物中毒</link>",
+            "DescriptionCB": null,
+            "AttributeId": "StaminaDelta",
+            "Value": -0.05,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          }
+        ],
+        "symptoms": [
+          {
+            "text": "膀胱：+200%/周期",
+            "tooltipText": "由于+200%/周期，膀胱改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "如厕速度：-20%",
+            "tooltipText": "由于-20%，如厕速度改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "体力：-30%/周期",
+            "tooltipText": "由于-30%/周期，体力改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          }
+        ]
+      },
+      "commonSickEffect": {},
+      "periodicEmote": {},
+      "animated": {}
+    },
+    "SlimeSickness": {
+      "sickness": "SlimeSickness",
+      "modifiers": {
+        "Modifers": [
+          {
+            "Description": "<link=\"SLIMESICKNESS\">粘液肺</link>",
+            "DescriptionCB": null,
+            "AttributeId": "BreathDelta",
+            "Value": -1.13636363,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"SLIMESICKNESS\">粘液肺</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Athletics",
+            "Value": -3.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          }
+        ],
+        "symptoms": [
+          {
+            "text": "呼吸：-1%/秒",
+            "tooltipText": "由于-1%/秒，呼吸改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "运动：-3",
+            "tooltipText": "由于-3，运动改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          }
+        ]
+      },
+      "commonSickEffect": {},
+      "periodicEmote": {},
+      "animated": {}
+    },
+    "ZombieSickness": {
+      "sickness": "ZombieSickness",
+      "modifiers": {
+        "Modifers": [
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Athletics",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Strength",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Digging",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Construction",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Art",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Caring",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Learning",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Machinery",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Cooking",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Botanist",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Ranching",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          }
+        ],
+        "symptoms": [
+          {
+            "text": "运动：-10",
+            "tooltipText": "由于-10，运动改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "力量：-10",
+            "tooltipText": "由于-10，力量改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "挖掘：-10",
+            "tooltipText": "由于-10，挖掘改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "建造：-10",
+            "tooltipText": "由于-10，建造改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "创作：-10",
+            "tooltipText": "由于-10，创作改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "医疗：-10",
+            "tooltipText": "由于-10，医疗改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "科学：-10",
+            "tooltipText": "由于-10，科学改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "机械：-10",
+            "tooltipText": "由于-10，机械改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "烹饪：-10",
+            "tooltipText": "由于-10，烹饪改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "农业：-10",
+            "tooltipText": "由于-10，农业改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "畜牧：-10",
+            "tooltipText": "由于-10，畜牧改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          }
+        ]
+      },
+      "commonSickEffect": null,
+      "periodicEmote": null,
+      "animated": {}
+    },
+    "RadiationSickness": {
+      "sickness": "RadiationSickness",
+      "modifiers": {
+        "Modifers": [
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Athletics",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Strength",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Digging",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Construction",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Art",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Caring",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Learning",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Machinery",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Cooking",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Botanist",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ZOMBIESICKNESS\">僵尸孢子</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Ranching",
+            "Value": -10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          }
+        ],
+        "symptoms": [
+          {
+            "text": "运动：-10",
+            "tooltipText": "由于-10，运动改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "力量：-10",
+            "tooltipText": "由于-10，力量改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "挖掘：-10",
+            "tooltipText": "由于-10，挖掘改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "建造：-10",
+            "tooltipText": "由于-10，建造改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "创作：-10",
+            "tooltipText": "由于-10，创作改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "医疗：-10",
+            "tooltipText": "由于-10，医疗改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "科学：-10",
+            "tooltipText": "由于-10，科学改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "机械：-10",
+            "tooltipText": "由于-10，机械改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "烹饪：-10",
+            "tooltipText": "由于-10，烹饪改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "农业：-10",
+            "tooltipText": "由于-10，农业改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "畜牧：-10",
+            "tooltipText": "由于-10，畜牧改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          }
+        ]
+      },
+      "commonSickEffect": null,
+      "periodicEmote": null,
+      "animated": {}
+    },
+    "Allergies": {
+      "sickness": "Allergies",
+      "modifiers": {
+        "Modifers": [
+          {
+            "Description": "<link=\"ALLERGIES\">过敏反应</link>",
+            "DescriptionCB": null,
+            "AttributeId": "StressDelta",
+            "Value": 0.025,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          },
+          {
+            "Description": "<link=\"ALLERGIES\">过敏反应</link>",
+            "DescriptionCB": null,
+            "AttributeId": "Sneezyness",
+            "Value": 10.0,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          }
+        ],
+        "symptoms": [
+          {
+            "text": "压力：+15%/周期",
+            "tooltipText": "由于+15%/周期，压力改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          },
+          {
+            "text": "喷嚏：+10",
+            "tooltipText": "由于+10，喷嚏改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          }
+        ]
+      },
+      "commonSickEffect": {},
+      "periodicEmote": null,
+      "animated": {}
+    },
+    "SunburnSickness": {
+      "sickness": "SunburnSickness",
+      "modifiers": {
+        "Modifers": [
+          {
+            "Description": "<link=\"SUNBURNSICKNESS\">晒伤</link>",
+            "DescriptionCB": null,
+            "AttributeId": "StressDelta",
+            "Value": 0.0333333351,
+            "IsMultiplier": false,
+            "OverrideTimeSlice": null,
+            "UIOnly": false,
+            "IsReadonly": true
+          }
+        ],
+        "symptoms": [
+          {
+            "text": "压力：+20%/周期",
+            "tooltipText": "由于+20%/周期，压力改变了",
+            "indent": 0,
+            "type": 6,
+            "onlyForSimpleInfoScreen": false
+          }
+        ]
+      },
+      "commonSickEffect": {},
+      "periodicEmote": {},
+      "animated": {}
+    }
+  },
+  "SicknessType": {
+    "Pathogen": 0,
+    "Ailment": 1,
+    "Injury": 2
+  },
+  "Severity": {
+    "Benign": 0,
+    "Minor": 1,
+    "Major": 2,
+    "Critical": 3
+  },
+  "InfectionVector": {
+    "Contact": 0,
+    "Digestion": 1,
+    "Inhalation": 2,
+    "Exposure": 3
+  },
+  "PermittedRotations": {
+    "Unrotatable": 0,
+    "R90": 1,
+    "R360": 2,
+    "FlipH": 3,
+    "FlipV": 4
+  },
+  "buildVersion": "U52-617614-SC",
+  "dlcs": [
+    "DLC2_ID",
+    "EXPANSION1_ID",
+    ""
+  ],
+  "ExportFileName": "attribute",
+  "DatabaseDirName": "database"
+}
